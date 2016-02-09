@@ -33,7 +33,7 @@
 						<label>Sampai Tanggal: </label>
 						<input class="form-control" name="sampai_tanggal">
 						<br>
-						<button class="btn btn-primary"> Cari Tiket </button>
+						<button class="btn btn-primary"><i class="fa fa-search"></i> Cari Tiket </button>
 					</div>
 				</div>
 			</div>

@@ -3,7 +3,9 @@
 <head>
 	<title> Aplikasi Tiket</title>
 	<link rel="stylesheet" type="text/css" href="src/css.css">
+	
 	<link rel="stylesheet" type="text/css" href="src/main.css">
+	<link rel="stylesheet" type="text/css" href="src/fa/css/font-awesome.css">
 	<script type="text/javascript" src="src/js.js"></script>
 	<script type="text/javascript" src="src/bs.js"></script>
 	
@@ -29,37 +31,18 @@
 </section>
 <section id="">
 	<div class="container">
-		<div class="col-md-12 " id="konten">
+		<div class="col-md-12 garis" id="">
 			<h3>Hasil Pencarian</h3>
 			<hr>
-			<div class='panel panel-footer'>
-				<h3>Pesawat</h3>
-				<small>Deksripsi</small>
-				 <div class='text-right'><a href="" class="btn btn-lg btn-warning">  Pesan</a></div>
-			</div>
-			<div class='panel panel-footer'>
-				<h3>Pesawat</h3>
-				<small>Deksripsi</small>
-				 <div class='text-right'><a href="" class="btn btn-lg btn-warning">  Pesan</a></div>
-			</div>
+			<div id="hasil_pencarian">
+				<?php include 'view/hasil_pencarian.php';?>
+			</div>		
 		</div>
 	</div>
 </section>
-<section>
-	<div class="footer">
-		<div class="container">
-			<div class="col-md-4">
-				<h3>Alamat</h3>
-			</div>
-			<div class="col-md-4">
-				<h3>Kontak</h3>
-			</div>
-				
-			<div class="col-md-4">
-				<h3>Media Sosial</h3>
-			</div>
-		</div>
-	</div>
+<section class="garis footer">
+<br>
+<?php include 'view/footer.php';?>
 </section>
 </body>
 </html>

@@ -4169,7 +4169,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -4484,7 +4484,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: -100px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
